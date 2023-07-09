@@ -1,9 +1,9 @@
-package services;
+package com.gaviria.GameStop.services;
 
-import entity.VideoGameEntity;
+import com.gaviria.GameStop.entity.VideoGameEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import repositorios.VideoGameRepository;
+import com.gaviria.GameStop.repositorios.VideoGameRepository;
 
 import java.util.List;
 

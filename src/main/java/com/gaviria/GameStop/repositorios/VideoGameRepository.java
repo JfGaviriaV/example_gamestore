@@ -1,6 +1,6 @@
-package repositorios;
+package com.gaviria.GameStop.repositorios;
 
-import entity.VideoGameEntity;
+import com.gaviria.GameStop.entity.VideoGameEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

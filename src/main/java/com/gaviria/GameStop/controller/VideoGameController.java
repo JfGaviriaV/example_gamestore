@@ -1,10 +1,9 @@
-package controller;
+package com.gaviria.GameStop.controller;
 
-import entity.VideoGameEntity;
-import org.springframework.http.MediaType;
+import com.gaviria.GameStop.entity.VideoGameEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import services.ServicioVideoGame;
+import com.gaviria.GameStop.services.ServicioVideoGame;
 
 import java.util.List;
 
@@ -22,5 +21,5 @@ public class VideoGameController {
     public ResponseEntity<List<VideoGameEntity>> retornarTodosLosJuegos() {
         return this.servicioVideoGame.obtenerTodosLosJuegos();
     }
-    
+
 }

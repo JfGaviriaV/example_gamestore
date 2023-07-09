@@ -1,4 +1,4 @@
-package entity;
+package com.gaviria.GameStop.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

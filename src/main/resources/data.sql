@@ -4,5 +4,5 @@ CREATE TABLE videogames (
   gameName VARCHAR(255),
   create_at DATE
 );
-
 INSERT INTO videogames (videoGameType, gameName, create_at) VALUES ('Action-Adventure', 'The Legend of Zelda: Breath of the Wild', '2021-01-15');
+INSERT INTO videogames (videoGameType, gameName, create_at) VALUES ('Role-Playing', 'Final Fantasy VII Remake', '2020-04-10');
